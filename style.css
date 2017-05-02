@@ -1,0 +1,175 @@
+/*
+Theme Name:   	tachibanalab
+Theme URI:    	http://localhost
+Author:       	ken
+Author URI:		http://localhost
+Description:  	This is the only theme.
+Version:      	alpha
+*/
+
+/*
+ * CSS Base
+ */
+
+body {
+  word-wrap: break-word;
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 1.42857;
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, figure, p {
+  margin: 0;
+}
+
+/* -------------------------------- */
+
+#siteContainer {
+  background-color:#aaa;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.site-header {}
+
+.header-inner {
+  background-color: #f77;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  background-color: #a66;
+}
+
+.header-right {
+  background-color: #a44;
+}
+
+.header-sub-nav-container {
+  background-color: #ff7;
+}
+
+.header-sub-nav-list {
+  background-color: #aa5;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.header-sub-nav-list li {
+  background-color: #990;
+  width: 96px;
+  text-align: center;
+}
+
+.header-sub-nav-list li+li {
+    border-left:1px solid #fefefe;
+}
+
+
+.header-access {
+  margin-left: auto;
+  text-align: right;
+}
+
+.header-main-nav-container {
+  background: #ff7;
+  width: 960px;
+  padding: 8px 0px;
+}
+
+.header-main-nav-list {
+  background-color: #aa5;
+  display: flex;
+  text-align: right;
+  justify-content: center;
+}
+
+.header-main-nav-list li {
+  background-color: #990;
+  width: 120px;
+  text-align: center;
+}
+
+/* -------------------------------- */
+
+.slideshow-container {
+  background:#000;
+  width: 960px;
+  height: 540px;
+  text-align: center;
+}
+
+#main {
+  background: #7f7;
+  display: flex;
+}
+
+#secondary {
+  background: #7a7;
+  width: 20%;
+  padding:4px;
+}
+
+#primary {
+  background: #797;
+  width: 80%;
+  padding:4px;
+}
+
+.secondary-container {
+  background-color: #7f7;
+  margin-bottom: 4px;
+}
+
+.jumplinks-container {
+  background-color: #2a2;
+}
+
+.sitelinks-container {
+  margin-bottom: 0px;
+}
+
+/* -------------------------------- */
+
+.footer-inner {
+  background: #77f;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+/*リンクの色設定*/
+a:link {
+  text-decoration: none;
+  color: #0000ff;
+}
+a:visited {
+  text-decoration: none;
+  color: #3e086e;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+a:active {
+  text-decoration: underline;
+  color: #0000ff;
+}
+h2 {
+height:24px;margin:0px 0px 5px 0px;padding:6px 0px 0px 0px;
+font-size:16px;font-weight:bold;color:#333333;
+background-image:url(img/head013_05.gif);
+background-position:bottom;background-repeat:repeat-x;
+}
